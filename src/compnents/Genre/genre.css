@@ -1,0 +1,56 @@
+.genre__flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.genre__title {
+    font-family: Play;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+}
+
+.genre__title-div{
+    /* padding: 22px 107px 30px 105px; */
+    background-color: black;
+    border-radius: 24px;
+    padding-bottom: 30px;
+}
+
+.genre__img{
+    width:290px;
+     height:400px;
+    margin-bottom: 22px;
+    border-radius: 24px 24px 0 0;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: white;
+}
+
+.genre_move_img{
+    width:224px;
+    height:336px;
+    border-radius:16px;
+}
+
+.displayf{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:426px){
+    .genre__img,.genre_move_img{
+        width:280px;
+
+    }
+}

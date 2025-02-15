@@ -1,0 +1,49 @@
+.inputred{
+  border-color: red;
+}
+
+.linkreg{
+  color: black;
+}
+
+.regflex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.regtitle{
+
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+margin-bottom: 24px;
+
+}
+
+.regbtn{
+  font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #67A5EB;
+    border-radius: 28px;
+    padding: 16px 20px;
+    width: 340px;
+    margin-bottom: 24px;
+}
+
+@media (max-width:426px){
+    .desk{
+      display: none;
+    }
+    .mobile{
+      display: block;
+    }
+
+    .register-form1{
+      padding-left: 5px;
+      padding-right: 0;
+    }
+  }
